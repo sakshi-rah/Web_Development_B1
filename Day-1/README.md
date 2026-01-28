@@ -1,53 +1,27 @@
-**Web is a collection of websites connected through the Internet.**
+**Every HTML page follows a fixed structure.**
 
-We open the web using a browser like Chrome or Edge.
+**This structure helps the browser:**
 
-Web allows users to:
-- Read information
-- Fill forms
-- Watch videos
-- Use applications (Gmail, WhatsApp Web)
+- Understand the page
+- Render it correctly
+- Follow web standards
 
-Examples: Google, YouTube, Amazon
+Think of it like:
+House plan → foundation, rooms, roof
+HTML → doctype, html, head, body
 
-**A website is a collection of web pages. Each web page is written using HTML.**
+**Why Document Structure is Important:**
 
-Websites can be:
-- Static: Only show information
-- Dynamic: User interaction like login and forms
+- Browser knows which version of HTML to use
+- Search engines understand your page better
+- Avoids unexpected layout or rendering issues
+- Industry-standard way of writing HTML
 
-Web development means building websites or web applications.
+**Main Parts of HTML Document:**
 
-**It has three main parts:**
-- Frontend: What users see
-- Backend: Logic and server
-- Database: Stores data
+!DOCTYPE html: Tells browser this page uses HTML5
 
-**In this course, we focus on Frontend.**
-
-- HTML stands for HyperText Markup Language.
-
-- HTML is used to create the structure of a webpage.
-
-- HTML tells the browser what to show on the page.
-
-- HTML is NOT a programming language. HTML is a markup language.
-
-**How Browser Works (High Level):**
-1. User types a URL
-2. Browser sends request to server
-3. Server sends HTML, CSS, JS
-4. Browser reads HTML
-5. Browser applies CSS
-6. Browser runs JavaScript
-7. Page is shown to the user
-
-HTML vs CSS vs JavaScript:
-HTML: Structure
-CSS: Styling
-JavaScript: Logic
-
-Real-life analogy:
-HTML is Body
-CSS is Clothes
-JavaScript is Brain
+- html: Root element that contains the whole webpage
+- head: Contains information about the page (not visible)
+- title: Title shown on browser tab
+- body: Contains all visible content
