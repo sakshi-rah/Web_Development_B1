@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and input tags</title>
+</head>
+
+<body>
+
+    <h1>Create Student Registration Form:</h1>
+    <label for="fname">Full Name:</label><!--your for in label tag and name in input tag value is always same-->
+    <input type="text" id="name" name="fname" placeholder="Enter FullName" required>
+    
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter Email">
+
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="pass" placeholder="Enter Password" required>
+    
+    <br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" placeholder="Enter Age" min="1" max="100">
+
+    <br><br>
+    <label for="gen">Gender:</label>
+    <input type="radio" name="gen" value="Male">Male</body>
+    <input type="radio" name="gen" value="Female">Female</input>
+
+    <br><br>
+    <input type="checkbox" name="terms" id="terms" required>I agree to the terms and conditions</input>
+    
+    <br><br>
+    <input type="submit" value="Register">
+    </form>
+
+</body>
+
+</html>
