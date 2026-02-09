@@ -1,0 +1,19 @@
+/*Css External File*/
+body{
+    background-color: coral;
+}
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    font-size: 20px;
+    background-color: cyan;
+
+}
+
+span{
+    color: rgb(128, 243, 62);
+    font-size: 25px;
+}

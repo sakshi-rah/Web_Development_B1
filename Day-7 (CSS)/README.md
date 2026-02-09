@@ -37,6 +37,8 @@ HTML = WHAT
 CSS = HOW IT LOOKS
 
 Types of CSS:
-- Inline CSS: Inside HTML tag
-- Internal CSS: Inside (style) tag
-- External CSS: Separate .css file
+- Inline CSS: Inside HTML tag - not mostly used
+- Internal CSS: Inside (style) tag - used for small projects
+- External CSS: Separate .css file - Used Mostly
+
+### Priority Order of CSS : inline>internal>external
