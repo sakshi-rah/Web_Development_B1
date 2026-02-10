@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(183, 213, 238);
+}
+
+h1{
+    color: blueviolet;
+}
+/*Class Selector (.className)*/
+.text{
+    color:rgb(109, 156, 16);
+    font-size: 30px;
+}
+
+.text-span{
+    font-size: 28px;
+    background-color: yellow;
+    padding: 10px; /* padding=> Provide Space Inside*/
+    margin: 10px; /* Margin=> Provide Space Outside*/
+}
+
+/*Id Selector (#idName)*/
+
+#btn{
+    color: red;
+    background-color: rgb(8, 199, 33);
+    cursor: pointer;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+#anBtn{
+    width: 120px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+}
+
+#btnContainer{
+    /* border: 7px double red; */
+    margin-top: 30px;
+    border-left: 7px double red;
+    border-top: 7px double red;
+    border-right: 7px double red;
+    border-bottom: 7px double red;
+}
+
+/*Group Selector (multiple Tags)*/
+
+h2, p, span{
+    font-size: 24px;
+    color: blue;
+    border-bottom: 2px solid peru;
+}
