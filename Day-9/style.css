@@ -1,0 +1,52 @@
+/* font-weight, font-family, units:- px, %, em, rem, text-aling, line-height, outline, border-radius */
+/* browser font size by default is 16px */
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(251, 251, 200);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    color: blue;
+    font-weight: 600;
+    /* font-weight-> boldness */
+    text-align: center;
+}
+
+.container-para {
+    color: orangered;
+    font-size: 1.5em;
+    /* e.g div is parent of p tag, div-font_size = 16*2 = 32px*/
+    line-height: 30px;
+}
+
+#para {
+    font-size: 1rem;
+    /* e.g html is root of p tag, html-font_size = 16*3 = 48px*/
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.outline-img {
+    width: 40%;
+    outline: 1px solid black;
+    border: 2px solid red;
+    border-radius: 50%; /*circle image */
+}
+
+.btn{
+    background-color: rgb(40, 222, 16);
+    border: none;
+    padding: 7px;
+    margin: 13px;
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btn-container{
+    text-align: center;
+}
