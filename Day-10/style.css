@@ -1,0 +1,38 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.nameColor {
+    color: orange;
+    font-weight: 600;
+}
+
+.hexColor {
+    color: #009900;
+    /* #rrggbb */
+}
+
+.rgbColor {
+    background-color: rgb(159, 159, 224);
+    /*rgb(0-255, 0-255, 0-255)*/
+    color: rgb(189, 22, 22);
+    text-align: center;
+}
+
+.rgbaColor {
+    color: rgba(211, 123, 45, 0.4);
+}
+
+.hslColor {
+    color: hsl(360, 100%, 31%);
+    /*hsl(360, 100%, 100%)*/
+}
+
+.thankImg {
+    height: 65vh;
+    width: 45vw;
+}
+
+.imgContainer{
+    text-align: center;
+}
