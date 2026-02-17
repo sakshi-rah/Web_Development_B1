@@ -15,10 +15,12 @@ Display property controls how an element appears and occupies space.
 - inline-block
 - none 
 
-Visibility property controls visibility, not layout.
-The element may still occupy space.
+#### Visibility property controls visibility, not layout. The element may still occupy space.
+**Visibility values:**
+- hidden
+- Visible
 
-Overflow property controls what happens when content exceeds container size.
+#### Overflow property controls what happens when content exceeds container size.
 **Overflow values:**
 - hidden
 - scroll
