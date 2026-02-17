@@ -1,0 +1,37 @@
+.block{
+    display: block;
+    background-color: yellow;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+.inline{
+    display: inline;
+    background-color: green;
+}
+
+.inlineBlock{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 70px;
+}
+
+p{
+    background-color: blue;
+    width: 100px;
+    visibility: hidden;
+    display: none;
+}
+
+.Container{
+    width: 250px;
+    margin-top: 30px;
+    height: 100px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+}
