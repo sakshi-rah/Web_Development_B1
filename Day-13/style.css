@@ -1,0 +1,40 @@
+body{
+ 
+}
+
+h1{
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+}
+.absolute{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(33, 13, 135);
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    
+}
+
+.relative{
+    width: 150px;
+    height: 120px;
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.btn{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky;
+    top: 20px;
+   left: 100px;
+}
