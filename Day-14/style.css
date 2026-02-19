@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* .box1 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    z-index: 10;
+    position: relative;
+}
+
+.box2 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-top: -85px;
+
+} */
+
+.boxContainer{
+    border: 2px solid black;
+    height: 550px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: flex-end;
+    
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    
+}
