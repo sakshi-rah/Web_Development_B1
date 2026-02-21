@@ -11,19 +11,19 @@ h1{
 .absolute{
     width: 300px;
     height: 250px;
-    background-color: rgb(33, 13, 135);
+    background-color: rgb(39, 6, 202);
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 30px;
 
 }
 
 .relative{
     width: 150px;
-    height: 120px;
+    height: 150px;
     background-color: green;
     position: relative;
-    top: 20px;
+    top: 50px;
     left: 10px;
 }
 
@@ -35,8 +35,8 @@ h1{
     width: 100px;
     border-radius: 5px;
     cursor: pointer;
-    position: sticky;
-    top: 20px;
-   left: 100px;
+   position: sticky;
+   top: 100px;
+   left: 20px;
 }
 

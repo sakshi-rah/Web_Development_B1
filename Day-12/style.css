@@ -1,9 +1,9 @@
 .block{
     display: block;
     background-color: yellow;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 70px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 90px;
 }
 
 .inline{
@@ -14,24 +14,27 @@
 .inlineBlock{
     display: inline-block;
     background-color: red;
-    width: 100px;
-    height: 70px;
+    width: 200px;
+    height: 100px;
 }
 
 p{
     background-color: blue;
-    width: 100px;
+    color: white;
+    padding: 10px;
+    width: 300px;
     visibility: hidden;
     display: none;
+
 }
 
 .Container{
-    width: 250px;
-    margin-top: 30px;
+    width: 200px;
     height: 100px;
-    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 2px solid black;
     /* overflow: hidden; */
     /* overflow: scroll; */
     overflow: auto;
-
 }
