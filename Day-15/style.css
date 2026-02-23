@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;  */
+    /* 1fr = fraction of available space */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-color: rgb(245, 213, 171);
+    padding: 10px;
+
+}
+
+.item{
+    background-color: #2a80d5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-12{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    /* repeat(column count, size of col= 200px/1fr) Note: only 12 col are there*/
+    gap: 10px;
+}
+
+.header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    grid-column: span 12;
+
+}
+
+.sidebar{
+    background-color: #ccc;
+    padding: 20px;
+    grid-column: span 3;
+}
+
+.content{
+    background-color: #eacccc;
+    padding: 20px;
+    grid-column: span 9;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    grid-column: span 12;
+}
