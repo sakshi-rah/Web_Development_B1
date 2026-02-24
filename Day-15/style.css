@@ -1,9 +1,12 @@
 .container{
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr;  */
     /* 1fr = fraction of available space */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr; */
+
+    display: flex;
+    flex-wrap: wrap-reverse;
     gap: 10px;
     background-color: rgb(245, 213, 171);
     padding: 10px;

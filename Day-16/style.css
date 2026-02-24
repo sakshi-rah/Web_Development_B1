@@ -1,0 +1,58 @@
+body{
+    /* background-image: url(./bg-img.jpg); */
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Media Query for Tablet */
+/* 1. @media (min-width: 768px){} */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+/* Media Query for Laptop/Desktop */
+@media screen and (min-width: 1024px){
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+/* Media Query for Small Devices-Mobile */
+@media screen  and (max-width: 768px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media Query for Small Devices-Mobile */
+@media screen and (min-width: 100px) and (max-width: 576px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
