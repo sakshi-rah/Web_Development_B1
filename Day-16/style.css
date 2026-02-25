@@ -16,6 +16,16 @@ h1{
     gap: 20px;
 }
 
+.card{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
 /* Media Query for Tablet */
 /* 1. @media (min-width: 768px){} */
 @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -23,6 +33,10 @@ h1{
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .card{
+        background-color: brown;
+        color: rgb(234, 230, 227);
+    }
 }
 
 /* Media Query for Laptop/Desktop */
@@ -47,12 +61,3 @@ h1{
     }
 }
 
-.card{
-    background-color: steelblue;
-    color: white;
-    padding: 20px;
-    height: 350px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-}
