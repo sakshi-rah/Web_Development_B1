@@ -48,20 +48,3 @@
 // console.log(pass);
 // console.log(typeof(pass));
 
-// Arithmetic Operator:
-let a = 50;
-let b = 30;
-// let sum = a+b;
-// console.log("Addition: ", sum);
-// console.log("Addition: ", a+2+b);
-// console.log("Sub: ", a-b);
-// console.log("Multification: ", a*b);
-// console.log("Mod: ", a % b);
-
-let y = 5;
-console.log("Y: ", y);
-
-let x = ++y; // pre-inc = first inc and print value
-// let x = y++; // post-inc = original value print then inc and stored in memory.
-console.log("Y1: ", x);
-console.log("Y2: ", y);
