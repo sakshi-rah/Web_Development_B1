@@ -55,3 +55,19 @@ console.log(multy);
 
 let max = rollNum.reduce((acc, curr)=> curr > acc ? curr : acc);
 console.log(max); // 7
+
+//Splice() -is used to add, remove and replace elements in array
+let nums = [1, 2, 3, 4];
+
+nums.splice(1, 1, 12); // (index=add, how many element remove, replace element value)
+console.log(nums); // 1, 12, 3, 4
+
+nums.splice(2, 2); // (index-2, remove 2 items) // 
+console.log(nums); // 1, 12
+
+nums.splice(1, 0, 7, 9); // (index, remove, add elements)
+console.log(nums); // 1, 7, 9, 12
+
+// Reverse()
+nums.reverse();
+console.log(nums); // 12, 9, 7, 1
