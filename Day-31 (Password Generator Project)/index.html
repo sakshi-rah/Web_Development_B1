@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body onload="alert('loading.....')">
+    <!-- Events- onclick, onchange, onmouseover, onmouseout, onload -->
+    <div style="background-color: rgb(210, 166, 252); padding: 10px; font-size: 18px;">
+        <!-- onclick -->
+        <button onclick="alert('Click Me')">Submit</button>
+        <!-- onchange -->
+        <input type="text" onchange="funOnchange()"> <br><br>
+        <!-- onmouseover and onmouseout -->
+        <input type="text" id="text" placeholder="Enter...." onmouseover="funOnmouseover()"
+            onmouseout="funOnmouseout()">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
