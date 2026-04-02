@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h2>Products</h2>
+
+    <div class="products">
+        <div class="card">
+            <img src="./shoes1.png" alt="shoes">
+            <p>Price: ₹1000</p>
+            <button onclick="addItem('Product 1', 1000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="./shoes2.png" alt="shoes">
+            <p>Price: ₹2000</p>
+            <button onclick="addItem('Product 2', 2000)">Add to Cart</button>
+        </div>
+    </div>
+
+    <h2>Cart</h2>
+    <ul id="cart"></ul>
+
+    <h3 id="total">Total: ₹0</h3>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
