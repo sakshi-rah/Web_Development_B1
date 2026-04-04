@@ -34,11 +34,11 @@ function showItem(){
         
         <button onclick = "inc(${index})"> + </button>
         <button onclick = "dec(${index})"> - </button>
-        <button onclick = "dlt(${index})"> Remove </button>
+        <button onclick = "dlt(${index})"> ✖ </button>
         </li>`
     });
 
-    document.getElementById("total").innerText = "Total: Rs." + total;
+    document.getElementById("total").innerText = "Total: ₹ " + total + "/-";
 }
 
 function inc(i){
@@ -49,8 +49,6 @@ function inc(i){
 function dec(i){
     if(cart[i].qty>1){
         cart[i].qty--;
-    }else{
-        cart.splice(i, 1);
     }
     showItem();
 }
