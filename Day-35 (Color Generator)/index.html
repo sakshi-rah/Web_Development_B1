@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="body" class="flex justify-center items-center">
+    <!-- CODE OF HTML -->
+    <div id="container" class="bg-white p-6 rounded-xl shadow-lg text-center mt-[170px] w-[400px]">
+        <h1 class="text-xl font-bold m-4">Color Generator</h1>
+        <p id="colorCode" class="m-4">#ffffff</p>
+        <button onclick="changeColor()" class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4">Change Color</button>
+    </div>
+
+    <!-- CODE OF JS -->
+    <script>
+        function changeColor() {
+            //Generate random color
+            let color = "#" + Math.floor(Math.random()*16777215).toString(16);
+
+            //Apply color to background
+            document.getElementById("body").style.backgroundColor = color;
+
+            //Show color code
+            document.getElementById("colorCode").innerText = color;
+
+        }
+    </script>
+</body>
+
+</html>
